@@ -7,15 +7,15 @@ tags: []
 
 Documentation for qBittorrent
 
-| PROPERTY      | VALUE                                                                          |
-| ------------- | ------------------------------------------------------------------------------ |
-| Name:         | qBittorrent                                                                    |
-| Host:         | [Tesseract](% post_url /documentation/systems/servers/2022-06-04-tesseract %}) |
-| Type:         | LXC                                                                            |
-| IP:           | `192.168.12.15`                                                                |
-| URL, internal | qbittorrent.vm                                                                 |
-| configs:      | on host                                                                        |
-| Purpose:      | torrent manager/downloader                                                     |
+| PROPERTY      | VALUE                                                                           |
+| ------------- | ------------------------------------------------------------------------------- |
+| Name:         | qBittorrent                                                                     |
+| Host:         | [Tesseract]({% post_url /documentation/systems/servers/2022-06-04-tesseract %}) |
+| Type:         | LXC                                                                             |
+| IP:           | `192.168.12.15`                                                                 |
+| URL, internal | qbittorrent.vm                                                                  |
+| configs:      | on host                                                                         |
+| Purpose:      | torrent manager/downloader                                                      |
 
 ## URLs
 
@@ -42,13 +42,15 @@ Documentation for qBittorrent
   - I've added a VPN to run on the host (express VPN - Amsterdam 2) starting at boot.
   - I've modified the host config with the following additional lines
 
-        auth-user-pass /etc/openvpn/client/login.conf
-        script-security 2
-        up /etc/openvpn/update-systemd-resolved
-        down /etc/openvpn/update-systemd-resolved
-        dhcp-option 'DOMAIN-ROUTE .'
-        down-pre
-        route 192.168.0.0 255.255.0.0 net_gateway
+    ```conf
+    auth-user-pass /etc/openvpn/client/login.conf
+    script-security 2
+    up /etc/openvpn/update-systemd-resolved
+    down /etc/openvpn/update-systemd-resolved
+    dhcp-option 'DOMAIN-ROUTE .'
+    down-pre
+    route 192.168.0.0 255.255.0.0 net_gateway
+    ```
 
     - `auth-user-pass`, `script-security 2`: for automating the login to the VPN.
     - `up/down /etc/openvpn/update-systemd-resolved`: sets and resets the DNS resolution when the tunnel starts and exits
