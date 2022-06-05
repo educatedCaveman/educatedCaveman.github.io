@@ -5,14 +5,14 @@ categories: []
 tags: []
 ---
 
-- [High-level Procedure](#High-Level-Procedure)
-- [Detailed Procedure](#Detailed-Procedure)
-  - [Create ACME cert](#Create-Cert-Using-ACME)
-  - [Create Backend](#Create-Backend)
-  - [Add to Existing Frontend](#Add-to-Existing-Frontend)
-  - [Create New Frontend](#Create-New-Frontend)
-  - [Add Hostfile Entry](#Add-Hostfile-Entry)
-- [Useful Guides](#Useful-Guides)
+- [High-level Procedure](#high-level-procedure)
+- [Detailed Procedure](#detailed-procedure)
+  - [Create ACME cert](#create-cert-using-acme)
+  - [Create Backend](#create-backend)
+  - [Add to Existing Frontend](#add-to-existing-frontend)
+  - [Create New Frontend](#create-new-frontend)
+  - [Add Hostfile Entry](#add-hostfile-entry)
+- [Useful Guides](#useful-guides)
 
 ## Useful Guides
 
@@ -47,7 +47,7 @@ Cloning an existing backend, then modifying as below is the easiest method.
 
 ### Add to Existing Frontend
 
-If there is no existing frontend, skip to [here](#Create-New-Frontend).
+If there is no existing frontend, skip to [here](#create-new-frontend).
 
 1.  Edit existing frontend
 2.  Under access control lists, add new "Host matches" entry, giving it a meaningful name, such as the subdomain
