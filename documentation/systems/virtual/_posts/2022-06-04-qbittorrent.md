@@ -20,21 +20,18 @@ Documentation for qBittorrent
 ## URLs
 
 - https://qbt.drak3.io/
-- https://radarr.drak3.io/
-- https://sonarr.drak3.io/
-- https://lidarr.drak3.io/
-- https://bazarr.drak3.io/
-- https://jackett.drak3.io/
+
+the *arrs used to be hosted here.  they are now containers.
 
 ## Storage
 
 - `/mnt/storage_node/Video/`
-- `/mnt/storage_node/Music/iTunes/iTunes Media/Music/`
+- `/mnt/storage_node/Music/library/`
 - `/mnt/storage_node/staging/qbittorrent/`
 
 ## Other Notes:
 
-- also runs the scripts to convert .flac to .ogg (via cron)
+- ~~also runs the scripts to convert .flac to .ogg (via cron)~~
 
 - new changes as of 2021-12-18:
 
@@ -67,10 +64,3 @@ Documentation for qBittorrent
     - if the FW VPN fails while still allowing traffic (ExpressVPN - Amsterdam 1) the internet traffic is still encrypted.
   - additionally, the config has been bound to the tun0 interface. this, combined with the above, should mean there is never a leak again
 
-- the following services are also run on the container:
-  - Radarr (movies)
-  - Sonarr (TV)
-  - Lidarr (music)
-  - Bazarr (Subtitles)
-  - Jackett (indexer)
-  - they are all for automating downloads. makes it much easier. i should have done that YEARS ago.

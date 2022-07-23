@@ -5,7 +5,7 @@ categories: [docker]
 tags: [docker]
 ---
 
-Documentation for TIGrafana AppsTLE
+Documentation for Grafana Apps
 
 | PROPERTY | VALUE                                                                                              |
 | -------- | -------------------------------------------------------------------------------------------------- |

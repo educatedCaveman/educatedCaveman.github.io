@@ -23,3 +23,5 @@ Documentation for Apt Mirror
 
 - only apt-cache uses this directly. all other hosts just point to the cache
 - [this](https://www.linuxtechi.com/setup-local-apt-repository-server-ubuntu/) is the general guide followed to create it.
+
+Retired.
