@@ -34,8 +34,8 @@ Documentation for Tesseract
 
 | DRIVE # | MFTR     | CAPACITY | MODEL #         | SERIAL #          | POOL         |
 | ------- | -------- | -------- | --------------- | ----------------- | ------------ |
-| b0      | Kingston | 240GB    | SA400S37240G    | 50026B76831671B4  | rpool (boot) |
-| b1      | Kingston | 240GB    | SA400S37240G    | 50026B76831675C7  | rpool (boot) |
+| b0      | Seagate  | 250GB    | ZA250NM10002    | 7TA007JZ          | rpool (boot) |
+| b1      | Seagate  | 250GB    | ZA250NM10002    | 7TA006DM          | rpool (boot) |
 | f0      | SK Hynix | 1000GB   | SHGS31-1000GS-2 | FJ07N44241110782E | tank         |
 | f1      | SK Hynix | 1000GB   | SHGS31-1000GS-2 | FJ07N442411107810 | tank         |
 | f2      | SK Hynix | 1000GB   | SHGS31-1000GS-2 | FSA4N84211100554W | tank         |
