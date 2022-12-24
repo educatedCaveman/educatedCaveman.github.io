@@ -31,16 +31,7 @@ Documentation for Grafana Apps
 
 ### DEV
 
-| Attribute     | DEV                                                                           |
-| ------------- | ----------------------------------------------------------------------------- |
-| HOST          | [Sevastopol]({% post_url /documentation/systems/virtual/2022-06-04-lv-426 %}) |
-| URL, External | N/A                                                                           |
-| URL, Prowlarr | [http://lv-426:9696](http://lv-426:9696)                                      |
-| URL, Bazarr   | [http://lv-426:6767](http://lv-426:6767)                                      |
-| URL, Radarr   | [http://lv-426:7878](http://lv-426:7878)                                      |
-| URL, Sonarr   | [http://lv-426:8989](http://lv-426:8989)                                      |
-| URL, Lidarr   | [http://lv-426:8686](http://lv-426:8686)                                      |
-| IP            | `192.168.13.20`                                                               |
+N/A.  This only exists in PRD.
 
 ## Notes:
 

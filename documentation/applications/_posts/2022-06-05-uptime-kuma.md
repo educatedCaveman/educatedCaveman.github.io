@@ -1,9 +1,11 @@
 ---
 title: Uptime Kuma
 date: 2022-06-05 08:44:00 -400
-categories: [docker]
-tags: [docker]
+categories: [docker, retired]
+tags: [docker, retired]
 ---
+
+# this service has been retired and replaced with Gatus.
 
 Documentation for Uptime Kuma
 

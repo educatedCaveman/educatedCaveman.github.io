@@ -20,7 +20,9 @@ This is a checklist of tasks to perform when retiring an existing VM or LXC with
      - remove any other explicit mentions of the host from other playbooks not to be retired.
      - remove entry from `PW_hostname.sh`
    - Pi-Hole: remove entries from `custom.list` and `cname.conf`
-   - misc: retire any dotfiles specifically for the host.
+   - misc: 
+     - retire any dotfiles specifically for the host.
+     - remove relevant entries from gatus
 
 3. pfSense tasks:
    - remove static DHCP lease

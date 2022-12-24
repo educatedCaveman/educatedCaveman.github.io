@@ -30,4 +30,4 @@ This is a checklist of tasks to perform when creating a new VM or LXC with DHCP.
 4. start the VM/LXC
    - run ansible playbook. you may have to wait for the automatic updates to complete first.
    - run the `/maintenance/PW_hostname.sh` script, which will set the hostname, and password for the drake and root users.
-   - add an entry to uptime-kuma, if desired.
+   - add an entry to status tracker (currently Gatus), if desired.
