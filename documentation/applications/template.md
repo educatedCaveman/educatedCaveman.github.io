@@ -24,7 +24,7 @@ Documentation for TITLE
 | URL, External | N/A                                                                               |
 | URL, Internal | [https://TBD.drak3.io](https://TBD.drak3.io)                                      |
 | URL, Internal | [http://sevastopol.vm:<PORT>](http://sevastopol.vm:<PORT>)                        |
-| IP            | `192.168.12.16`                                                                   |
+| IP            | `192.168.12.20`                                                                   |
 
 ### DEV
 
@@ -34,4 +34,4 @@ Documentation for TITLE
 | URL, External | N/A                                                                           |
 | URL, Internal | [https://TBD.dev.drak3.io](https://TBD.dev.drak3.io)                          |
 | URL, Internal | [http://lv-426.lab:<PORT>](http://lv-426.lab:<PORT>)                          |
-| IP            | `192.168.13.16`                                                               |
+| IP            | `192.168.13.20`                                                               |
