@@ -26,6 +26,7 @@ This is a checklist of tasks to perform when creating a new VM or LXC with DHCP.
    - if ansible is to be used, configure the relevant playbooks, and add the host to the `hosts.ini` file. Don't forget the `/maintenance/PW_hostname.sh` script. it contains an array of hostnames.
    - add a Bitwarden entry to `Homelab/ansible/`. copy an existing one, and update as appropriate.
    - create any extra dotfiles needed, such as the specific tmuxp config file.
+   - add the service to homer, if applicable
 
 4. start the VM/LXC
    - run ansible playbook. you may have to wait for the automatic updates to complete first.

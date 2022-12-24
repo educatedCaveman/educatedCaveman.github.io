@@ -1,15 +1,15 @@
 ---
-title:  Patch Rack
-date:   2022-06-04 15:19:00 -400
+title: Patch Rack
+date: 2022-06-04 15:19:00 -400
 categories: []
-tags:   []
+tags: []
 ---
 
 Documentation for patch rack
 
 TODO:
-- handle wormhole
 
+- handle wormhole
 
 | PROPERTY  | VALUE                                                               |
 | --------- | ------------------------------------------------------------------- |
@@ -40,9 +40,9 @@ TODO:
 | Port 18 | (empty)                                                                                                    |
 | Port 19 | (empty)                                                                                                    |
 | Port 20 | PoE_20 ([Sentry]({% post_url /documentation/systems/surveilance/2022-06-04-sentry %}))                     |
-| Port 21 | PoE_21 ([OctoPi]({% post_url /documentation/systems/servers/2022-06-04-octoprint %}))                      |
+| Port 21 | PoE_21 ([Hu3bert]({% post_url /documentation/systems/servers/2022-12-24-hu3bert %}))                       |
 | Port 22 | PoE_22 ([Plasma Injector]({% post_url /documentation/systems/network/2022-06-04-plasma-injector %}))       |
-| Port 23 | PoE_23 (Wormhole TBD)                     |
+| Port 23 | PoE_23 (Wormhole TBD)                                                                                      |
 | Port 24 | PoE_24 ([Event Horizon]({% post_url /documentation/systems/servers/2022-06-04-event-horizon %}))           |
 
 ## Picture:
