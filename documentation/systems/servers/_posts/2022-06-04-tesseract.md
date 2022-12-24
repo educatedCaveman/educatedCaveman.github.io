@@ -57,19 +57,12 @@ Documentation for Tesseract
 
 - tier 1: (boot order = 10; boot delay = 10)
   - pihole
-  - influxDB
-  - grafana
 - tier 2: (boot order = 20; boot delay = 10)
   - jenkins
-  - apt_mirror
-  - apt_cache (boot order = 25)
-  - minio
   - syncthing
 - tier 3: (boot order = 30)
   - lv-426
-  - moria
   - nextcloud
-  - origami
   - plex
   - seedbox
   - sevastopol
