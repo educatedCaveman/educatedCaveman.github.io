@@ -7,16 +7,16 @@ tags: []
 
 Documentation for Tesseract
 
-| PROPERTY     | VALUE                                                                  |
-| ------------ | ---------------------------------------------------------------------- |
-| Name:        | Tesseract                                                              |
-| Model:       | Dell R720                                                              |
-| Service Tag: | 49PJYC1                                                                |
-| Serial:      | 9294218569                                                             |
-| Location:    | [RU_15]({% post_url /documentation/systems/servers/2022-06-04-rack %}) |
-| IP:          | `192.168.11.3`, `192.168.1.8`                                          |
-| local DNS:   | tesseract.srv, tesseract.mgmt                                          |
-| Purpose:     | Virtualization Server (Proxmox)                                        |
+| PROPERTY     | VALUE                                                               |
+| ------------ | ------------------------------------------------------------------- |
+| Name:        | Tesseract                                                           |
+| Model:       | Dell R720                                                           |
+| Service Tag: | 49PJYC1                                                             |
+| Serial:      | 9294218569                                                          |
+| Location:    | [RU_15]({% post_url /documentation/systems/misc/2022-06-04-rack %}) |
+| IP:          | `192.168.11.3`, `192.168.1.8`                                       |
+| local DNS:   | tesseract.srv, tesseract.mgmt                                       |
+| Purpose:     | Virtualization Server (Proxmox)                                     |
 
 ## URLs
 

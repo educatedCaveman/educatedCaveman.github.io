@@ -13,7 +13,7 @@ TODO:
 
 | PROPERTY  | VALUE                                                               |
 | --------- | ------------------------------------------------------------------- |
-| Location: | [RU_18]({% post_url /documentation/servers/misc/2022-06-04-rack %}) |
+| Location: | [RU_18]({% post_url /documentation/systems/misc/2022-06-04-rack %}) |
 | Purpose:  | Patch Panel                                                         |
 
 ## Ports:

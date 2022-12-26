@@ -7,16 +7,16 @@ tags: []
 
 Documentation for Event Horizon
 
-| PROPERTY   | VALUE                                                                  |
-| ---------- | ---------------------------------------------------------------------- |
-| Name:      | Event Horizon                                                          |
-| Model:     | Raspberry Pi 3B                                                        |
-| Serial:    | 000000009cfa8f93                                                       |
-| Location:  | [RU_16]({% post_url /documentation/systems/servers/2022-06-04-rack %}) |
-| IP:        | `192.168.11.4`                                                         |
-| local DNS: | event-horizon.srv                                                      |
-| URL:       | https://pihole2.drak3.io/admin/index.php                               |
-| Purpose:   | Run Pi-hole                                                            |
+| PROPERTY   | VALUE                                                               |
+| ---------- | ------------------------------------------------------------------- |
+| Name:      | Event Horizon                                                       |
+| Model:     | Raspberry Pi 3B                                                     |
+| Serial:    | 000000009cfa8f93                                                    |
+| Location:  | [RU_16]({% post_url /documentation/systems/misc/2022-06-04-rack %}) |
+| IP:        | `192.168.11.4`                                                      |
+| local DNS: | event-horizon.srv                                                   |
+| URL:       | https://pihole2.drak3.io/admin/index.php                            |
+| Purpose:   | Run Pi-hole                                                         |
 
 ## Crontab
 

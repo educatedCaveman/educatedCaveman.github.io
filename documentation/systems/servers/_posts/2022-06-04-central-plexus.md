@@ -7,16 +7,16 @@ tags: []
 
 Documentation for Central_Plexus
 
-| PROPERTY   | VALUE                                                                  |
-| ---------- | ---------------------------------------------------------------------- |
-| Name:      | Central_Plexus                                                         |
-| Model:     | Supermicro X10SLM-F                                                    |
-| Serial:    | S15586614313687                                                        |
-| Location:  | [RU_24]({% post_url /documentation/systems/servers/2022-06-04-rack %}) |
-| IP:        | `192.168.*.1`, `10.13.*.1`                                             |
-| URL:       | https://pfsense.drak3.io/                                              |
-| local DNS: | router.\*                                                              |
-| Purpose:   | Router                                                                 |
+| PROPERTY   | VALUE                                                               |
+| ---------- | ------------------------------------------------------------------- |
+| Name:      | Central_Plexus                                                      |
+| Model:     | Supermicro X10SLM-F                                                 |
+| Serial:    | S15586614313687                                                     |
+| Location:  | [RU_24]({% post_url /documentation/systems/misc/2022-06-04-rack %}) |
+| IP:        | `192.168.*.1`, `10.13.*.1`                                          |
+| URL:       | https://pfsense.drak3.io/                                           |
+| local DNS: | router.\*                                                           |
+| Purpose:   | Router                                                              |
 
 ## Hardware:
 
