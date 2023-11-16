@@ -1,0 +1,73 @@
+<mxfile modified="2020-12-30T18:26:03.691Z" host="app.diagrams.net" agent="5.0 (X11)" etag="nMytv9gRJAx3J9gFGhgV" version="14.1.4" type="github">
+  <diagram id="l8hXMBHkgcEJcSW0mbfh" name="Page-1">
+    <mxGraphModel dx="2702" dy="1493" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yS3g01l_42U6pDWuGFZ5-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="yS3g01l_42U6pDWuGFZ5-1" target="yS3g01l_42U6pDWuGFZ5-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yS3g01l_42U6pDWuGFZ5-1" value="" style="points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0],[0.145,0.145,0],[0.8555,0.145,0],[0.855,0.8555,0],[0.145,0.855,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=router_with_firewall;fillColor=#FAFAFA;strokeColor=#005073;" parent="1" vertex="1">
+          <mxGeometry x="536.25" y="333.75" width="97.5" height="97.5" as="geometry" />
+        </mxCell>
+        <mxCell id="yS3g01l_42U6pDWuGFZ5-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.145;entryY=0.145;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="yS3g01l_42U6pDWuGFZ5-2" target="yS3g01l_42U6pDWuGFZ5-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yS3g01l_42U6pDWuGFZ5-2" value="&lt;div&gt;&lt;b&gt;MGMT_VLAN &lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;blockquote&gt;&lt;div align=&quot;left&quot;&gt;&lt;u&gt;Tag&lt;/u&gt;: native&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;u&gt;IP Scheme&lt;/u&gt;: 192.168.1.0/24&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;u&gt;Purpose&lt;/u&gt;: contains all the management interfaces, like IPMI, as well as the IPs of all Unify devices.&lt;br&gt;&lt;/div&gt;&lt;/blockquote&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="90" y="65" width="260" height="185" as="geometry" />
+        </mxCell>
+        <mxCell id="yS3g01l_42U6pDWuGFZ5-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="yS3g01l_42U6pDWuGFZ5-3" target="yS3g01l_42U6pDWuGFZ5-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yS3g01l_42U6pDWuGFZ5-3" value="&lt;div align=&quot;center&quot;&gt;&lt;b&gt;LAN_VLAN &lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;blockquote&gt;&lt;div&gt;&lt;u&gt;Tag&lt;/u&gt;: 10&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;IP Scheme&lt;/u&gt;: 192.168.10.0/24&lt;/div&gt;&lt;u&gt;Purpose&lt;/u&gt;: contains all the main user devices, like laptops, phones, etc.&lt;/blockquote&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="90" y="290" width="260" height="185" as="geometry" />
+        </mxCell>
+        <mxCell id="yS3g01l_42U6pDWuGFZ5-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.145;entryY=0.855;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="yS3g01l_42U6pDWuGFZ5-4" target="yS3g01l_42U6pDWuGFZ5-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="566" />
+              <mxPoint x="400" y="480" />
+              <mxPoint x="550" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yS3g01l_42U6pDWuGFZ5-4" value="&lt;div align=&quot;center&quot;&gt;&lt;b&gt;SERVER_VLAN &lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;blockquote&gt;&lt;div align=&quot;left&quot;&gt;&lt;u&gt;Tag&lt;/u&gt;: 11&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;u&gt;IP Scheme&lt;/u&gt;: 192.168.11.0/24&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;u&gt;Purpose&lt;/u&gt;: contains all the physical servers.&lt;/div&gt;&lt;/blockquote&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="90" y="520" width="260" height="185" as="geometry" />
+        </mxCell>
+        <mxCell id="yS3g01l_42U6pDWuGFZ5-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.8555;entryY=0.145;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="yS3g01l_42U6pDWuGFZ5-5" target="yS3g01l_42U6pDWuGFZ5-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yS3g01l_42U6pDWuGFZ5-5" value="&lt;div&gt;&lt;b&gt;CAM_VLAN &lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;blockquote&gt;&lt;div align=&quot;left&quot;&gt;&lt;u&gt;Tag&lt;/u&gt;: 200&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;u&gt;IP Scheme&lt;/u&gt;: 192.168.200.0/24&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;u&gt;Purpose&lt;/u&gt;: dedicated VLAN for security cameras&lt;br&gt;&lt;/div&gt;&lt;/blockquote&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="820" y="65" width="260" height="185" as="geometry" />
+        </mxCell>
+        <mxCell id="yS3g01l_42U6pDWuGFZ5-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="yS3g01l_42U6pDWuGFZ5-6" target="yS3g01l_42U6pDWuGFZ5-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yS3g01l_42U6pDWuGFZ5-6" value="&lt;div&gt;&lt;b&gt;IOT_VLAN &lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;blockquote&gt;&lt;div align=&quot;left&quot;&gt;&lt;u&gt;Tag&lt;/u&gt;: 20&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;u&gt;IP Scheme&lt;/u&gt;: 192.168.20.0/24&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;u&gt;Purpose&lt;/u&gt;: contains all the IoT devices, isolates them from the rest of the network, and only allows certain devices internet access.&lt;br&gt;&lt;/div&gt;&lt;/blockquote&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="820" y="290" width="260" height="185" as="geometry" />
+        </mxCell>
+        <mxCell id="yS3g01l_42U6pDWuGFZ5-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.855;entryY=0.8555;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="yS3g01l_42U6pDWuGFZ5-7" target="yS3g01l_42U6pDWuGFZ5-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="566" />
+              <mxPoint x="760" y="480" />
+              <mxPoint x="620" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yS3g01l_42U6pDWuGFZ5-7" value="&lt;div&gt;&lt;b&gt;LAB_VLAN &lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;blockquote&gt;&lt;div&gt;&lt;u&gt;Tag&lt;/u&gt;: 13&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;IP Scheme&lt;/u&gt;: 192.168.13.0/24&lt;/div&gt;&lt;u&gt;Purpose&lt;/u&gt;: contains all the testing virtual devices&lt;br&gt;&lt;/blockquote&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="820" y="520" width="260" height="185" as="geometry" />
+        </mxCell>
+        <mxCell id="yS3g01l_42U6pDWuGFZ5-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="yS3g01l_42U6pDWuGFZ5-8" target="yS3g01l_42U6pDWuGFZ5-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yS3g01l_42U6pDWuGFZ5-8" value="&lt;div&gt;&lt;b&gt;VM_VLAN &lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;blockquote&gt;&lt;div align=&quot;left&quot;&gt;&lt;u&gt;Tag&lt;/u&gt;: 12&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;u&gt;IP Scheme&lt;/u&gt;: 192.168.12.0/24&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;u&gt;Purpose&lt;/u&gt;: contains all the Production Virtual devices, such as jails or VMs.&lt;br&gt;&lt;/div&gt;&lt;/blockquote&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="455" y="520" width="260" height="185" as="geometry" />
+        </mxCell>
+        <mxCell id="yS3g01l_42U6pDWuGFZ5-20" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.internet_2;fillColor=#D2D3D3;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="545" y="60" width="79.5" height="54" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
